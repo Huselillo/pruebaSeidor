@@ -1,0 +1,23 @@
+<app-navbar></app-navbar>
+<app-status></app-status>
+ <!-- Para la animacion hacemos que se muestre esto primero con fadeIn First -->
+<div class="wrapper fadeInDown">
+    <div class="fadeIn first">
+    <h1 class="text-center">{{ "checkoutOrder.title" | translate }}</h1>
+    <p class="text-center">{{ "checkoutOrder.info" | translate }}</p>
+    </div>
+    <div class="text-center">
+        <img src="../assets/creditCard.png" alt="" width="80" height="80" class="d-inline-block text-center">
+    </div>
+    <p class="text-center">{{ "checkoutOrder.info2" | translate }}</p>
+    <div>
+        <img src="../assets/masterCard.png" alt="" width="80" height="80" class="d-inline-block text-center" style="border:solid 1px black;">&nbsp;
+        <img src="../assets/visa.png" alt="" width="80" height="80" class="d-inline text-center" style="border:solid 1px black;">
+    </div>
+     <!-- Botonera -->
+    <div class="buttons text-center">
+        <button type="button" class="btn btn-primary" (click)="goBack()"style="margin-right:15%;">{{ "checkoutOrder.button2" | translate }}</button>
+        <button type="button" class="btn btn-primary" (click)="goPaid()">{{ "checkoutOrder.button" | translate }}</button>
+    </div>
+</div>
+<app-footer></app-footer>

@@ -1,0 +1,12 @@
+nav{
+    border: 1px solid black;
+}
+a{
+    width:100px;
+}
+.nav{
+    margin-left:auto;
+}
+li{
+    margin:20px;
+}

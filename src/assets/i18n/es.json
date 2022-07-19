@@ -1,0 +1,34 @@
+{
+    "navbar": {
+        "categories": "Categorias",
+        "categoriesI": "Categorias I",
+        "categoriesII": "Categorias II",
+        "brands": "Marcas",
+        "brandsI": "Marcas I",
+        "brandsII": "Marcas II",
+        "aboutUs": "Acerca de nosotros",
+        "help": "AYUDA",
+        "sign": "IDENTIFICATE"
+    },
+    "footer": {
+        "company": "Mi Empresa"
+    },
+    "checkout": {
+        "title": "Mi información",
+        "info": "Por favor introduzca su información personal y pulse en continuar",
+        "button": "CONTINUAR       >",
+        "user": "Usuario",
+        "password": "Contraseña"
+    },
+    "checkoutOrder": {
+        "title": "Pago",
+        "info": "Despues de realizar el pago recibiras una confirmacion a tu e-mail con los detalles de tu compra",
+        "info2":"Serás redirigido a una plataforma de pago seguro. Esto es un proceso seguro. La validación del pago puede demorarse hasta 24 horas.",
+        "button": "CONTINUAR       >",
+        "button2": "<        ATRÁS"
+    },
+    "checkoutPaid": {
+        "title": "Pedido realizado",
+        "info": "Felicidades, tu pago se ha realizado correctamente. En breves te llegará al correo una confirmación."
+    }
+}

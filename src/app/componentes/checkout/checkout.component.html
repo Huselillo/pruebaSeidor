@@ -1,0 +1,17 @@
+<div class="wrapper fadeInDown">
+    <div id="formContent">
+      <div class="fadeIn first">
+        <p class="text-center">{{ "checkout.title" | translate }}</p>
+      </div>
+      <div class="fadeIn first">
+        <span class="text-center">{{ "checkout.info" | translate }}</span>
+      </div>
+  
+      <!-- Login Form -->
+      <form [formGroup]="loginForm" (ngSubmit)="onLogin(loginForm.value)">
+        <input type="text" id="login" class="fadeIn second" name="user"placeholder='{{ "checkout.user" | translate }}' formControlName="user">
+        <input type="text" id="password" class="fadeIn third" placeholder='{{ "checkout.password" | translate }}' formControlName="password">
+        <input type="submit" class="fadeIn fourth continue" value='{{ "checkout.button" | translate }}'>
+      </form>
+    </div>
+  </div>

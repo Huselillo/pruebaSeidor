@@ -1,0 +1,34 @@
+{
+    "navbar": {
+        "categories": "Categories",
+        "categoriesI": "Categories I",
+        "categoriesII": "Categories II",
+        "brands": "Brands",
+        "brandsI": "Brands I",
+        "brandsII": "Brands II",
+        "aboutUs": "About us",
+        "help": "HELP",
+        "sign": "SIGN IN"
+    },
+    "footer": {
+        "company": "My company"
+    },
+    "checkout": {
+        "title": "My Data",
+        "info": "Please enter your personal data and press continue",
+        "button": "CONTINUE       >",
+        "user": "User",
+        "password": "Password"
+    },
+    "checkoutOrder": {
+        "title": "Payment",
+        "info": "After making the payment you will receive a confirmation email with details of your purchase",
+        "info2":"You will be redirected to a secure payment platform. This is a secure process. The validation of your payment can take up to 24 hours.",
+        "button": "CONTINUE       >",
+        "button2": "<        BACK"
+    },
+    "checkoutPaid": {
+        "title": "Order Created",
+        "info": "Congratulations, your payment was successful. Shortly a confirmation email will arrive to your inbox"
+    }
+}
